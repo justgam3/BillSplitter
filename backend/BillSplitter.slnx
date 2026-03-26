@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/BillSplitter.API/BillSplitter.API.csproj" />
+    <Project Path="src/BillSplitter.Application/BillSplitter.Application.csproj" />
+    <Project Path="src/BillSplitter.Domain/BillSplitter.Domain.csproj" />
+    <Project Path="src/BillSplitter.Infrastructure/BillSplitter.Infrastructure.csproj" />
+  </Folder>
+</Solution>

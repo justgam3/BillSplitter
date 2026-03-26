@@ -1,0 +1,11 @@
+C:\new-projects\BillSplitter\backend\src\BillSplitter.Domain\bin\Debug\net10.0\BillSplitter.Domain.deps.json
+C:\new-projects\BillSplitter\backend\src\BillSplitter.Domain\bin\Debug\net10.0\BillSplitter.Domain.dll
+C:\new-projects\BillSplitter\backend\src\BillSplitter.Domain\bin\Debug\net10.0\BillSplitter.Domain.pdb
+C:\new-projects\BillSplitter\backend\src\BillSplitter.Domain\obj\Debug\net10.0\BillSplitter.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\new-projects\BillSplitter\backend\src\BillSplitter.Domain\obj\Debug\net10.0\BillSplitter.Domain.AssemblyInfoInputs.cache
+C:\new-projects\BillSplitter\backend\src\BillSplitter.Domain\obj\Debug\net10.0\BillSplitter.Domain.AssemblyInfo.cs
+C:\new-projects\BillSplitter\backend\src\BillSplitter.Domain\obj\Debug\net10.0\BillSplitter.Domain.csproj.CoreCompileInputs.cache
+C:\new-projects\BillSplitter\backend\src\BillSplitter.Domain\obj\Debug\net10.0\BillSplitter.Domain.dll
+C:\new-projects\BillSplitter\backend\src\BillSplitter.Domain\obj\Debug\net10.0\refint\BillSplitter.Domain.dll
+C:\new-projects\BillSplitter\backend\src\BillSplitter.Domain\obj\Debug\net10.0\BillSplitter.Domain.pdb
+C:\new-projects\BillSplitter\backend\src\BillSplitter.Domain\obj\Debug\net10.0\ref\BillSplitter.Domain.dll
