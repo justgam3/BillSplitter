@@ -369,6 +369,7 @@ dist
 .expo-shared/
 dist/
 web-build/
+expo-env.d.ts
 
 # Metro
 .metro-health-check*
@@ -385,6 +386,11 @@ local.properties
 *.iml
 *.hprof
 .cxx/
+.kotlin/
+
+# Generated native folders (Expo managed workflow)
+/frontend/ios
+/frontend/android
 
 # iOS
 Pods/
@@ -407,6 +413,14 @@ fastlane/test_output
 
 # CocoaPods
 Pods/
+
+# Code signing & certificates
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
 
 # ===========================
 # Database
