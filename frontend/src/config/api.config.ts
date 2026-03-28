@@ -1,12 +1,15 @@
+import { API_BASE_URL as ENV_API_URL } from '@env';
+
 // API Configuration
-// Update this URL based on your environment
+// The URL is read from the .env file
+// Fallback to Android emulator localhost if not set
 
-// For local development on Android emulator: http://10.0.2.2:5001/api
-// For local development on iOS simulator: http://localhost:5001/api
-// For local development on physical device: http://YOUR_COMPUTER_IP:5001/api
-// For production: your production API URL
+export const API_BASE_URL = ENV_API_URL || 'http://10.0.2.2:5000/api';
 
-export const API_BASE_URL = 'http://localhost:5001/api';
+// Environment-specific notes:
+// - Android Emulator: http://10.0.2.2:5000/api (maps to host machine's localhost)
+// - iOS Simulator: http://localhost:5000/api
+// - Physical Device: http://YOUR_COMPUTER_IP:5000/api (e.g., http://192.168.1.100:5000/api)
+// - Production: https://api.billsplitter.com/api
 
-// Note: You may need to disable SSL certificate validation for development
-// if using self-signed certificates with HTTPS
+console.log('API Base URL:', API_BASE_URL);

@@ -1,0 +1,16 @@
+C:\new-projects\BillSplitter\backend\src\BillSplitter.Application\bin\Debug\net10.0\BillSplitter.Application.deps.json
+C:\new-projects\BillSplitter\backend\src\BillSplitter.Application\bin\Debug\net10.0\BillSplitter.Application.dll
+C:\new-projects\BillSplitter\backend\src\BillSplitter.Application\bin\Debug\net10.0\BillSplitter.Application.pdb
+C:\new-projects\BillSplitter\backend\src\BillSplitter.Application\bin\Debug\net10.0\BillSplitter.Domain.dll
+C:\new-projects\BillSplitter\backend\src\BillSplitter.Application\bin\Debug\net10.0\BillSplitter.Domain.pdb
+C:\new-projects\BillSplitter\backend\src\BillSplitter.Application\obj\Debug\net10.0\BillSplitter.Application.csproj.AssemblyReference.cache
+C:\new-projects\BillSplitter\backend\src\BillSplitter.Application\obj\Debug\net10.0\BillSplitter.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\new-projects\BillSplitter\backend\src\BillSplitter.Application\obj\Debug\net10.0\BillSplitter.Application.AssemblyInfoInputs.cache
+C:\new-projects\BillSplitter\backend\src\BillSplitter.Application\obj\Debug\net10.0\BillSplitter.Application.AssemblyInfo.cs
+C:\new-projects\BillSplitter\backend\src\BillSplitter.Application\obj\Debug\net10.0\BillSplitter.Application.csproj.CoreCompileInputs.cache
+C:\new-projects\BillSplitter\backend\src\BillSplitter.Application\obj\Debug\net10.0\BillSplitter.Application.sourcelink.json
+C:\new-projects\BillSplitter\backend\src\BillSplitter.Application\obj\Debug\net10.0\BillSpli.3195D1EC.Up2Date
+C:\new-projects\BillSplitter\backend\src\BillSplitter.Application\obj\Debug\net10.0\BillSplitter.Application.dll
+C:\new-projects\BillSplitter\backend\src\BillSplitter.Application\obj\Debug\net10.0\refint\BillSplitter.Application.dll
+C:\new-projects\BillSplitter\backend\src\BillSplitter.Application\obj\Debug\net10.0\BillSplitter.Application.pdb
+C:\new-projects\BillSplitter\backend\src\BillSplitter.Application\obj\Debug\net10.0\ref\BillSplitter.Application.dll

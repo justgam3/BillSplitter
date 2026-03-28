@@ -310,6 +310,9 @@ web_modules/
 .env.production.local
 .env.local
 
+# Keep example env files
+!.env.example
+
 # parcel-bundler cache
 .cache
 .parcel-cache
