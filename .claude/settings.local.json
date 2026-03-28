@@ -11,7 +11,12 @@
       "Bash(npx create-expo-app@latest . --template blank-typescript)",
       "Bash(npm install:*)",
       "Bash(npx expo:*)",
-      "Bash(npx tsc:*)"
+      "Bash(npx tsc:*)",
+      "Bash(dotnet tool:*)",
+      "Read(//c/new-projects/BillSplitter/$HOME/.dotnet/**)",
+      "Read(//c/Users/$USER/.dotnet/**)",
+      "Bash(\"/c/Users/KenChenKee.Ng/.dotnet/tools/dotnet-ef.exe\" migrations:*)",
+      "Bash(\"/c/Users/KenChenKee.Ng/.dotnet/tools/dotnet-ef.exe\" database:*)"
     ]
   }
 }
