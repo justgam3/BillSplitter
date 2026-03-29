@@ -24,7 +24,7 @@ namespace BillSplitter.Infrastructure.Persistence.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_users", x => x.id);
+                    table.PrimaryKey("pk_users", x => x.id);
                 });
 
             migrationBuilder.CreateTable(
@@ -42,9 +42,9 @@ namespace BillSplitter.Infrastructure.Persistence.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_email_verifications", x => x.id);
+                    table.PrimaryKey("pk_email_verifications", x => x.id);
                     table.ForeignKey(
-                        name: "FK_email_verifications_users_user_id",
+                        name: "fk_email_verifications_users_user_id",
                         column: x => x.user_id,
                         principalTable: "users",
                         principalColumn: "id",

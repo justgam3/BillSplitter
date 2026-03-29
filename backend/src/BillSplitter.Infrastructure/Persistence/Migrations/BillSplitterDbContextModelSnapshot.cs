@@ -60,7 +60,8 @@ namespace BillSplitter.Infrastructure.Persistence.Migrations
                         .HasColumnType("character varying(6)")
                         .HasColumnName("verification_code");
 
-                    b.HasKey("Id");
+                    b.HasKey("Id")
+                        .HasName("pk_email_verifications");
 
                     b.HasIndex("UserId")
                         .HasDatabaseName("idx_email_verifications_user_id");
@@ -103,7 +104,8 @@ namespace BillSplitter.Infrastructure.Persistence.Migrations
                         .HasColumnType("timestamp with time zone")
                         .HasColumnName("updated_at");
 
-                    b.HasKey("Id");
+                    b.HasKey("Id")
+                        .HasName("pk_users");
 
                     b.HasIndex("Email")
                         .IsUnique()
@@ -118,7 +120,8 @@ namespace BillSplitter.Infrastructure.Persistence.Migrations
                         .WithMany("EmailVerifications")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .IsRequired()
+                        .HasConstraintName("fk_email_verifications_users_user_id");
 
                     b.Navigation("User");
                 });

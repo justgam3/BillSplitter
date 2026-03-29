@@ -16,7 +16,9 @@
       "Read(//c/new-projects/BillSplitter/$HOME/.dotnet/**)",
       "Read(//c/Users/$USER/.dotnet/**)",
       "Bash(\"/c/Users/KenChenKee.Ng/.dotnet/tools/dotnet-ef.exe\" migrations:*)",
-      "Bash(\"/c/Users/KenChenKee.Ng/.dotnet/tools/dotnet-ef.exe\" database:*)"
+      "Bash(\"/c/Users/KenChenKee.Ng/.dotnet/tools/dotnet-ef.exe\" database:*)",
+      "Bash(dotnet ef:*)",
+      "Bash(dotnet restore:*)"
     ]
   }
 }

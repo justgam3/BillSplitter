@@ -15,7 +15,8 @@ public static class DependencyInjection
     {
         // Database
         services.AddDbContext<BillSplitterDbContext>(options =>
-            options.UseNpgsql(configuration.GetConnectionString("DefaultConnection")));
+            options.UseNpgsql(configuration.GetConnectionString("DefaultConnection"))
+                   .UseSnakeCaseNamingConvention());
 
         services.AddScoped<IApplicationDbContext>(provider =>
             provider.GetRequiredService<BillSplitterDbContext>());
