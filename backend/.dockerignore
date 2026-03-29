@@ -1,0 +1,39 @@
+# Build outputs
+**/bin/
+**/obj/
+
+# IDE and editor files
+**/.vs/
+**/.vscode/
+**/.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Development files
+**/.git/
+**/.gitignore
+**/.dockerignore
+**/Dockerfile*
+**/*.md
+**/.env
+**/.env.*
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+
+# Test results
+**/TestResults/
+**/*.trx
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS files
+.DS_Store
+Thumbs.db
