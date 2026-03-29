@@ -12,3 +12,15 @@ export type AppStackParamList = {
 };
 
 export type RootStackParamList = AuthStackParamList & AppStackParamList;
+
+export type MainTabParamList = {
+  Buddies: undefined;
+  Groups: undefined;
+  Activities: undefined;
+  Profile: undefined;
+};
+
+export type AppModalParamList = {
+  MainTabs: undefined;
+  AddExpense: undefined;
+};

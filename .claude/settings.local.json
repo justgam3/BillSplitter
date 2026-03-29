@@ -18,7 +18,12 @@
       "Bash(\"/c/Users/KenChenKee.Ng/.dotnet/tools/dotnet-ef.exe\" migrations:*)",
       "Bash(\"/c/Users/KenChenKee.Ng/.dotnet/tools/dotnet-ef.exe\" database:*)",
       "Bash(dotnet ef:*)",
-      "Bash(dotnet restore:*)"
+      "Bash(dotnet restore:*)",
+      "Bash(PGPASSWORD=postgres psql -h localhost -U postgres -d billsplitter -c 'ALTER TABLE \"\"\"\"__EFMigrationsHistory\"\"\"\" RENAME COLUMN \"\"\"\"MigrationId\"\"\"\" TO migration_id; ALTER TABLE \"\"\"\"__EFMigrationsHistory\"\"\"\" RENAME COLUMN \"\"\"\"ProductVersion\"\"\"\" TO product_version;')",
+      "Bash(where psql:*)",
+      "Read(//c//**)",
+      "Bash(PGPASSWORD=postgres \"/c/Program Files/PostgreSQL/18/bin/psql.exe\" -h localhost -U postgres -d billsplitter -c 'ALTER TABLE \"\"__EFMigrationsHistory\"\" RENAME COLUMN \"\"MigrationId\"\" TO migration_id; ALTER TABLE \"\"__EFMigrationsHistory\"\" RENAME COLUMN \"\"ProductVersion\"\" TO product_version;')",
+      "Bash(PGPASSWORD=postgres \"/c/Program Files/PostgreSQL/18/bin/psql.exe\" -h localhost -U postgres -d billsplitter -c 'SELECT * FROM \"\"__EFMigrationsHistory\"\";')"
     ]
   }
 }

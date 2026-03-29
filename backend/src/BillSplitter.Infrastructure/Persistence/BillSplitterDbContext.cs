@@ -14,6 +14,9 @@ public class BillSplitterDbContext : DbContext, IApplicationDbContext
 
     public DbSet<User> Users => Set<User>();
     public DbSet<EmailVerification> EmailVerifications => Set<EmailVerification>();
+    public DbSet<Buddy> Buddies => Set<Buddy>();
+    public DbSet<Expense> Expenses => Set<Expense>();
+    public DbSet<ExpenseSplit> ExpenseSplits => Set<ExpenseSplit>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

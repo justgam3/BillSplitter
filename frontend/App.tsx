@@ -7,7 +7,7 @@ import { StatusBar } from 'expo-status-bar';
 
 import theme from './src/theme/theme';
 import { tokenService } from './src/services/api/tokenService';
-import { AuthStackParamList, AppStackParamList } from './src/navigation/types';
+import { AuthStackParamList, AppModalParamList } from './src/navigation/types';
 
 // Auth Screens
 import WelcomeScreen from './src/screens/auth/WelcomeScreen';
@@ -15,11 +15,12 @@ import SignUpScreen from './src/screens/auth/SignUpScreen';
 import LoginScreen from './src/screens/auth/LoginScreen';
 import EmailVerificationScreen from './src/screens/auth/EmailVerificationScreen';
 
-// App Screens
-import MainScreen from './src/screens/MainScreen';
+// App Screens & Navigation
+import MainTabNavigator from './src/navigation/MainTabNavigator';
+import AddExpenseScreen from './src/screens/main/AddExpenseScreen';
 
 const AuthStack = createNativeStackNavigator<AuthStackParamList>();
-const AppStack = createNativeStackNavigator<AppStackParamList>();
+const AppModalStack = createNativeStackNavigator<AppModalParamList>();
 
 function AuthNavigator() {
   return (
@@ -57,11 +58,16 @@ function AuthNavigator() {
 
 function AppNavigator({ onLogout }: { onLogout: () => void }) {
   return (
-    <AppStack.Navigator screenOptions={{ headerShown: false }}>
-      <AppStack.Screen name="Main">
-        {(props) => <MainScreen {...props} onLogout={onLogout} />}
-      </AppStack.Screen>
-    </AppStack.Navigator>
+    <AppModalStack.Navigator screenOptions={{ headerShown: false }}>
+      <AppModalStack.Screen name="MainTabs">
+        {() => <MainTabNavigator onLogout={onLogout} />}
+      </AppModalStack.Screen>
+      <AppModalStack.Screen
+        name="AddExpense"
+        component={AddExpenseScreen}
+        options={{ presentation: 'modal' }}
+      />
+    </AppModalStack.Navigator>
   );
 }
 
@@ -100,7 +106,7 @@ export default function App() {
   }, []);
 
   if (isLoading) {
-    return null; // Or a loading screen
+    return null;
   }
 
   return (
