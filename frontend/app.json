@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "frontend",
-    "slug": "frontend",
+    "name": "BillSplitter",
+    "slug": "billsplitter",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -12,9 +12,13 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
+      "bundleIdentifier": "com.kenchenkee.billsplitter",
+      "buildNumber": "1",
       "supportsTablet": true
     },
     "android": {
+      "package": "com.kenchenkee.billsplitter",
+      "versionCode": 1,
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
@@ -25,6 +29,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "69775257-3d56-40d7-9b4b-d49858238ee5"
+      }
+    },
+    "owner": "kenng123"
   }
 }

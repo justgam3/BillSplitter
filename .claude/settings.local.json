@@ -23,7 +23,9 @@
       "Bash(where psql:*)",
       "Read(//c//**)",
       "Bash(PGPASSWORD=postgres \"/c/Program Files/PostgreSQL/18/bin/psql.exe\" -h localhost -U postgres -d billsplitter -c 'ALTER TABLE \"\"__EFMigrationsHistory\"\" RENAME COLUMN \"\"MigrationId\"\" TO migration_id; ALTER TABLE \"\"__EFMigrationsHistory\"\" RENAME COLUMN \"\"ProductVersion\"\" TO product_version;')",
-      "Bash(PGPASSWORD=postgres \"/c/Program Files/PostgreSQL/18/bin/psql.exe\" -h localhost -U postgres -d billsplitter -c 'SELECT * FROM \"\"__EFMigrationsHistory\"\";')"
+      "Bash(PGPASSWORD=postgres \"/c/Program Files/PostgreSQL/18/bin/psql.exe\" -h localhost -U postgres -d billsplitter -c 'SELECT * FROM \"\"__EFMigrationsHistory\"\";')",
+      "Bash(npx eas-cli:*)",
+      "WebFetch(domain:expo.dev)"
     ]
   }
 }
